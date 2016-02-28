@@ -1,4 +1,4 @@
-import {gulp, browserify, srcDir, mainCoffee, bundleCoffee, debug, sources, handle, buildDir} from './common.babel'
+import {gulp, browserify, srcDir, mainCoffee, bundleCoffee, debug, sources, handle, buildDir, livereload} from './common.babel'
 
 gulp.task('coffee', () => {
   return browserify({
@@ -14,4 +14,5 @@ gulp.task('coffee', () => {
     .on('error', handle)
     .pipe(sources(bundleCoffee))
     .pipe(gulp.dest(buildDir))
+    .pipe(livereload())
 })

@@ -1,16 +1,9 @@
 coffee-vs-es6 [![build](https://travis-ci.org/daggerok/coffee-vs-es6.svg?branch=master)](https://travis-ci.org/daggerok/coffee-vs-es6)
 =============
 
-holy war: CoffeeScript vs ES6
+CoffeeScript vs ES6
 
-less talk, more code, or nothing change here...
-
-```shell
-npm test
-npm run serve
-```
-
-or just
+nothing is change... less talk, more code
 
 ```shell
 npm start

@@ -4,7 +4,7 @@ import babelify   from 'babelify'
 import sources    from 'vinyl-source-stream'
 import cssnano    from 'gulp-cssnano'
 import concat     from 'gulp-concat'
-import server     from 'gulp-server-livereload'
+import livereload from 'gulp-livereload'
 import {handle}   from './error-hendler.babel'
 
 export {
@@ -14,14 +14,13 @@ export {
   sources,
   cssnano,
   concat,
-  server,
+  livereload,
   handle
 }
 
 export let
 debug         = true,
 srcDir        = '.',
-port          = 3000,
 buildDir      = 'dist',
 mainCss       = 'main.css',
 mainES6       = 'main.es6',
