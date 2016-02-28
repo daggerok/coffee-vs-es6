@@ -8,8 +8,7 @@ gulp.task('coffee', () => {
     .add(`${srcDir}/${mainCoffee}`)
     .transform("coffeeify", {
       sourceMaps: debug,
-      bare: false,
-      extensions: ['.coffee']
+      bare: false
     })
     .bundle()
     .on('error', handle)

@@ -2,8 +2,8 @@ Person = require './modules/Person'
 {render} = require './modules/Person/View'
 
 model =
-  date: new Date()
-  person: new Person 'Max'
+  date: new Date
+  person: new Person 'CoffeScript'
 
 # html template will interpolate immediately, so make sure that you are using existing 'model' object
 render """

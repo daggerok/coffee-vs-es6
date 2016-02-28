@@ -6,6 +6,13 @@ holy war: CoffeeScript VS ES6
 less talk, more code, or nothing change here...
 
 ```shell
+npm test
+npm run serve
+```
+
+or just
+
+```shell
 npm start
 ```
 

@@ -3,7 +3,7 @@ import {render} from './modules/Person/View'
 
 let
 date = new Date,
-person = new Person('Max'),
+person = new Person('ES6'),
 model = {
   date,
   person
