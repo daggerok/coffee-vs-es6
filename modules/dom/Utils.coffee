@@ -1,3 +1,3 @@
 $ = require 'jquery'
 
-module.exports = render: (html) -> $('#person-coffee-content').html(html)
+module.exports = render: (html) -> $('#person-coffee-content').html html
