@@ -1,0 +1,68 @@
+{
+  "name": "coffee-vs-es6",
+  "version": "1.0.0",
+  "description": "holy war: CoffeeScript VS ES6",
+  "main": {
+    "es6": "src/main.es6",
+    "coffee": "src/main.coffee"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "pregulp": "npm i",
+    "clean": "rm -rf dist*",
+    "test": "npm run gulp",
+    "prestart": "npm test",
+    "start": "gulp watch",
+    "serve": "ws -p 3000"
+  },
+  "author": "Maksim Kostromin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babelify": "^7.2.0",
+    "bootstrap": "^3.3.6",
+    "browserify": "^13.0.0",
+    "coffee-script": "^1.10.0",
+    "coffeeify": "^2.0.1",
+    "colors": "^1.1.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-server-livereload": "^1.7.0",
+    "jquery": "^2.2.1",
+    "local-web-server": "^1.1.1",
+    "require-dir": "^0.3.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daggerok/coffee-vs-es6.git"
+  },
+  "keywords": [
+    "gulp",
+    "babel",
+    "es6",
+    "gulp-babel",
+    "livereload",
+    "gulp-server-livereload",
+    "browserify",
+    "babelify",
+    "jquery",
+    "bootstrap"
+  ],
+  "bugs": {
+    "url": "https://github.com/daggerok/coffee-vs-es6/issues"
+  },
+  "homepage": "https://github.com/daggerok/coffee-vs-es6#readme",
+  "dependencies": {}
+}
