@@ -1,7 +1,7 @@
 {
   "name": "coffee-vs-es6",
   "version": "1.0.0",
-  "description": "holy war: CoffeeScript VS ES6",
+  "description": "holy war: CoffeeScript vs ES6",
   "main": {
     "es6": "src/main.es6",
     "coffee": "src/main.coffee"
