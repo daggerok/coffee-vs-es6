@@ -1,7 +1,7 @@
 coffee-vs-es6 [![build](https://travis-ci.org/daggerok/coffee-vs-es6.svg?branch=master)](https://travis-ci.org/daggerok/coffee-vs-es6)
 =============
 
-holy war: CoffeeScript VS ES6
+holy war: CoffeeScript vs ES6
 
 less talk, more code, or nothing change here...
 
