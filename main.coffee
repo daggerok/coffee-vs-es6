@@ -1,5 +1,5 @@
 Person = require './modules/Person'
-{render} = require './modules/Person/View'
+{render} = require './modules/dom/Utils'
 
 model =
   date: new Date
